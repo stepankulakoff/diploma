@@ -1,0 +1,67 @@
+You are an assistant for extracting structured “subject – predicate – object” triples from a historical text about the First World War.
+Ontology (JSON format)
+{
+  "name": "Ontology",
+  "classes": [
+    { "id": "Country",              "description": "A sovereign state or historical political entity" },
+    { "id": "Person",               "description": "An individual historical figure" },
+    { "id": "Event",                "description": "An historical action that has a date and a place" },
+    { "id": "Treaty",               "description": "An official document recording an agreement" },
+    { "id": "Location",             "description": "A physical place: settlement, building, region" },
+    { "id": "Organization",         "description": "An institution, party, government, alliance" },
+    { "id": "Military_Conflict",    "description": "Armed confrontation between sides" },
+    { "id": "Ethnic_Group",         "description": "A group of people united by ethnic identity" },
+    { "id": "Army",                 "description": "Armed forces or a large military formation" },
+    { "id": "Technology",           "description": "A means or method of armament/production" },
+    { "id": "Economic_Plan",        "description": "Government programme of economic development" },
+    { "id": "Political_Movement",   "description": "Ideological association or party" },
+    { "id": "Diplomatic_Mission",   "description": "Official delegation for negotiations" },
+    { "id": "Railway",              "description": "Rail-line infrastructure" },
+    { "id": "Navy",                 "description": "A state’s naval forces" }
+  ],
+  "relations": [
+    { "subject": "Person",            "predicate": "signed treaty",              "object": "Treaty" },
+    { "subject": "Person",            "predicate": "took part in negotiations",  "object": "Event" },
+    { "subject": "Event",             "predicate": "occurred at location",       "object": "Location" },
+    { "subject": "Country",           "predicate": "ally",                       "object": "Country" },
+    { "subject": "Country",           "predicate": "was at war with",            "object": "Country" },
+    { "subject": "Country",           "predicate": "concluded peace with",       "object": "Country" },
+    { "subject": "Country",           "predicate": "has capital",                "object": "Location" },
+    { "subject": "Location",          "predicate": "is located in country",      "object": "Country" },
+    { "subject": "Person",            "predicate": "fought against",             "object": "Country" },
+    { "subject": "Person",            "predicate": "headed delegation",          "object": "Event" },
+    { "subject": "Treaty",            "predicate": "was held in",                "object": "Location" },
+    { "subject": "Country",           "predicate": "lost territory to",          "object": "Country" },
+    { "subject": "Event",             "predicate": "resulted in",                "object": "Event" },
+    { "subject": "Event",             "predicate": "part of",                    "object": "Event" },
+    { "subject": "Event",             "predicate": "occurred after",             "object": "Event" },
+    { "subject": "Person",            "predicate": "is member of",               "object": "Organization" },
+    { "subject": "Person",            "predicate": "commands army",              "object": "Army" },
+    { "subject": "Army",              "predicate": "army belongs to",            "object": "Country" },
+    { "subject": "Military_Conflict", "predicate": "conflict side",              "object": "Country" },
+    { "subject": "Military_Conflict", "predicate": "used technology",            "object": "Technology" },
+    { "subject": "Person",            "predicate": "promoted idea",              "object": "Political_Movement" },
+    { "subject": "Political_Movement","predicate": "movement active in",         "object": "Country" },
+    { "subject": "Country",           "predicate": "implemented plan",           "object": "Economic_Plan" },
+    { "subject": "Economic_Plan",     "predicate": "plan affected country",      "object": "Country" },
+    { "subject": "Diplomatic_Mission","predicate": "mission represented",        "object": "Country" },
+    { "subject": "Diplomatic_Mission","predicate": "mission took part in",       "object": "Event" },
+    { "subject": "Railway",           "predicate": "railway built by",           "object": "Country" },
+    { "subject": "Railway",           "predicate": "railway used for",           "object": "Military_Conflict" },
+    { "subject": "Navy",              "predicate": "navy operated by",           "object": "Country" },
+    { "subject": "Navy",              "predicate": "navy took part in",          "object": "Military_Conflict" }
+  ]
+}
+Answer requirements
+Output only triples.
+Format: (Subject, predicate, object)
+One triple per line.
+Do not invent or repeat extra triples.
+Use all terms (class names, predicates, etc.) exactly as in the ontology.
+Provide no more than 20 triples.
+Exclude any triple that does not comply with the ontology.
+Example (ilslustrative, not related to the text to be analysed):
+(Ferdinand Foch, commanded, French army)  
+(Russia, entered the war, 1914-08-01)  
+Text for analysis:
+<<<TEXT>>>

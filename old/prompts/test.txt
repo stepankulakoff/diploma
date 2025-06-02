@@ -1,0 +1,282 @@
+Вы — ассистент по извлечению структурированных троек «субъект — предикат — объект» из исторического текста о Первой мировой войне.
+
+Онтология MilitaryPerson (Show in class hierarchy)
+
+Label (nl):	militair
+Label (el):	στρατιωτικός
+Label (ko):	군인
+Label (ur):	فوجی شخص
+Label (fr):	militaire
+Label (it):	militare
+Label (en):	military person
+Label (ja):	軍人
+Label (de):	militärische Person
+Super classes:	Person
+
+Properties on MilitaryPerson:
+Name	Label	Domain	Range	Comment
+achievement (edit)	achievement	Person	owl:Thing	
+activeYears (edit)	active years	Person	xsd:string	Also called "floruit". Use this if the active years are in one field that can't be split. Else use activeYearsStartYear and activeYearsEndYear
+activeYearsEndDateMgr (edit)	active years end date manager	Person	xsd:string	
+activeYearsEndYearMgr (edit)	active years end year manager	Person	xsd:gYear	
+activeYearsStartDateMgr (edit)	active years start date manager	Person	xsd:date	
+activeYearsStartYearMgr (edit)	active years start year manager	Person	xsd:gYear	
+activity (edit)	activity	Person	owl:Thing	
+affair (edit)	affair	Person	xsd:string	
+agency (edit)	agency	Person	owl:Thing	
+allegiance (edit)	allegiance	Person	xsd:string	The country or other power the person served. Multiple countries may be indicated together with the corresponding dates. This field should not be used to indicate a particular service branch, which is better indicated by the branch field.
+almaMater (edit)	alma mater	Person	EducationalInstitution	schools that they attended
+announcedFrom (edit)	announcedFrom	Person	Place	
+approach (edit)	approach	Person	owl:Thing	
+army (edit)	army	MilitaryPerson	xsd:string	An army is the ground force of the nation
+arrestDate (edit)	arrest date	Person	xsd:date	
+artisticFunction (edit)	artistic function	Person	xsd:string	
+astrologicalSign (edit)	astrological sign	Person	owl:Thing	
+awardName (edit)	awardName	Person	xsd:string	Award a person has received (literal). Compare to award (ObjectProperty)
+badGuy (edit)	bad guy	Person	xsd:string	
+bestLap (edit)	best lap	Person	xsd:string	
+bigPoolRecord (edit)	big pool record	Person	xsd:string	
+birthName (edit)	birth name	Person	rdf:langString	
+birthSign (edit)	birth sign	Person	owl:Thing	
+birthYear (edit)	birth year	Person	xsd:gYear	
+bloodGroup (edit)	blood group	Person	xsd:string	
+bloodType (edit)	blood type	Person	owl:Thing	
+board (edit)	board	Person	owl:Thing	
+bodyDiscovered (edit)	body discovered	Person	Place	
+britishWins (edit)	british wins	Person	skos:Concept	
+bustSize (edit)	bust size	Person	Length	
+bustWaistHipSize (edit)	bust-waist-hip Size	Person	xsd:string	Use this property if all 3 sizes are given together (DBpedia cannot currently extract 3 Lengths out of a field). Otherwise use separate fields bustSize, waistSize, hipSize
+careerStation (edit)	career station	Person	CareerStation	this property links to a step in the career of a person, e.g. a soccer player, holding information on the time span, matches and goals he or she achieved at a club.
+case (edit)	case	Person	xsd:string	
+catch (edit)	catch	Person	xsd:string	
+causeOfDeath (edit)	cause of death	Person	xsd:string	
+child (edit)	child	Person	Person	
+circumcised (edit)	circumcised	Person	xsd:string	
+citizenship (edit)	citizenship	Person	owl:Thing	
+clothSize (edit)	cloth size	Person	xsd:string	
+clothingSize (edit)	clothing size	Person	xsd:string	
+coalition (edit)	coalition	Person	xsd:string	
+collaboration (edit)	collaboration	Person	Person	
+colleague (edit)	colleague	Person	Person	Colleague of a Person or OfficeHolder (not PersonFunction nor CareerStation). Sub-properties include: president, vicePresident, chancellor, viceChancellor, governor, lieutenant. Points to a Person who may have a general "position" (resource) or "title" (literal).
+college (edit)	college	Person	EducationalInstitution	
+command (edit)	command	MilitaryPerson	xsd:string	
+competitionTitle (edit)	competition title	Person	SportsEvent	
+complexion (edit)	complexion	Person	owl:Thing	
+contest (edit)	contest	Person	Contest	
+continentalTournament (edit)	continental tournament	Person	Tournament	
+continentalTournamentBronze (edit)	continental tournament bronze	Person	xsd:nonNegativeInteger	
+continentalTournamentGold (edit)	continental tournament gold	Person	xsd:nonNegativeInteger	
+continentalTournamentSilver (edit)	continental tournament silver	Person	xsd:nonNegativeInteger	
+convictionDate (edit)	conviction date	Person	xsd:date	
+copilote (edit)	copilote	Person	Person	
+cousurper (edit)	cousurper	Person	Person	
+created (edit)	created	Person	Work	
+currentTeamManager (edit)	current team manager	Person	SportsTeam	
+danseCompetition (edit)	danse competition	Person	xsd:string	
+danseScore (edit)	danse score	Person	xsd:string	
+dateOfBurial (edit)	date of burial	Person	xsd:date	
+deadInFightDate (edit)	dead in fight date	Person	xsd:string	
+deadInFightPlace (edit)	dead in fight place	Person	xsd:string	
+deathAge (edit)	death age	Person	xsd:nonNegativeInteger	
+deathCause (edit)	death cause	Person	owl:Thing	
+deathYear (edit)	death year	Person	xsd:gYear	
+debutWork (edit)	debutWork	Person	Work	First work of a person (may be notableWork or not)
+decoration (edit)	decoration	Person	owl:Thing	
+derivedWord (edit)	derived word	Person	xsd:string	
+detractor (edit)	detractor	Person	Person	
+diploma (edit)	diploma	Person	Diploma	
+dubber (edit)	dubber	Person	Person	the person who dubs another person e.g. an actor or a fictional character in movies
+education (edit)	education	Person	owl:Thing	
+educationPlace (edit)	education place	Person	Place	
+electionDate (edit)	election date	Person	xsd:date	
+employer (edit)	employer	Person	Organisation	
+endCareer (edit)	end career	Person	xsd:string	
+endReign (edit)	end reign	Person	skos:Concept	
+escalafon (edit)	escalafon	Person	xsd:string	
+ethnicity (edit)	ethnicity	Person	EthnicGroup	
+expedition (edit)	expedition	Person	xsd:string	
+externalOrnament (edit)	external ornament	Person	xsd:string	
+eyeColor (edit)	eye color	Person	xsd:string	
+eyeColour (edit)	eye colour	Person	xsd:string	
+feat (edit)	feat	Person	xsd:string	
+federation (edit)	federation	Person	Organisation	
+filmNumber (edit)	film number	Person	xsd:nonNegativeInteger	
+foot (edit)	foot	Person	xsd:string	
+freeDanseScore (edit)	free danse score	Person	xsd:string	
+freeProgCompetition (edit)	free prog competition	Person	xsd:string	
+freeProgScore (edit)	free prog score	Person	xsd:string	
+freeScoreCompetition (edit)	free score competition	Person	xsd:string	
+friend (edit)	friend	Person	Person	
+fullCompetition (edit)	full competition	Person	xsd:string	
+fullScore (edit)	full score	Person	xsd:string	
+grave (edit)	grave	Person	xsd:string	
+gymApparatus (edit)	gym apparatus	Person	owl:Thing	
+hairColor (edit)	hair color	Person	xsd:string	
+hairColour (edit)	hair colour	Person	xsd:string	
+hand (edit)	hand	Person	owl:Thing	
+handedness (edit)	handedness	Person	owl:Thing	an attribute of humans defined by their unequal distribution of fine motor skill between the left and right hands.
+handisport (edit)	handisport	Person	xsd:string	
+hasNaturalBust (edit)	has natural bust	Person	xsd:string	
+hipSize (edit)	hip size	Person	Length	
+homage (edit)	homage	Person	xsd:string	
+idNumber (edit)	id number	Person	xsd:nonNegativeInteger	
+iihfHof (edit)	lihf hof	Person	xsd:string	
+imposedDanseCompetition (edit)	imposed danse competition	Person	xsd:string	
+imposedDanseScore (edit)	imposed danse score	Person	xsd:string	
+individualisedPnd (edit)	individualised PND number	Person	xsd:nonNegativeInteger	PND (Personennamendatei) data about a person. PND is published by the German National Library. For each person there is a record with her/his name, birth and occupation connected with a unique identifier, the PND number.
+juniorYearsEndYear (edit)	junior years end year	Person	xsd:gYear	
+juniorYearsStartYear (edit)	junior years start year	Person	xsd:gYear	
+jutsu (edit)	jutsu	Person	xsd:string	
+killedBy (edit)	killed by	Person	xsd:string	
+lahHof (edit)	lah hof	Person	xsd:string	
+leadership (edit)	leadership	Person	xsd:string	
+leagueManager (edit)	league manager	Person	SportsLeague	
+linguisticsTradition (edit)	linguistics tradition	Person	owl:Thing	
+littlePoolRecord (edit)	little pool record	Person	xsd:string	
+livingPlace (edit)	livingPlace	Person	Place	
+mainDomain (edit)	main domain	Person	owl:Thing	
+mastersWins (edit)	masters wins	Person	skos:Concept	
+matchPoint (edit)	match point	Person	xsd:string	
+measurements (edit)	measurements	Person	xsd:string	
+media (edit)	media	Person	owl:Thing	
+member (edit)	member	Person	xsd:string	
+militaryBranch (edit)	military branch	MilitaryPerson	MilitaryUnit	The service branch (Army, Navy, etc.) a person is part of.
+militaryCommand (edit)	military command	MilitaryPerson	xsd:string	For persons who are notable as commanding officers, the units they commanded. Dates should be given if multiple notable commands were held.
+militaryFunction (edit)	military function	MilitaryPerson	xsd:string	
+militaryRank (edit)	military rank	MilitaryPerson	owl:Thing	The highest rank achieved by a person.
+militaryService (edit)	military service	Person	MilitaryService	
+militaryUnit (edit)	military unit	MilitaryPerson	MilitaryUnit	For persons who are not notable as commanding officers, the unit (company, battalion, regiment, etc.) in which they served.
+mood (edit)	mood	Person	xsd:string	
+mount (edit)	mount	Person	xsd:string	
+movie (edit)	movie	Person	Film	
+nationalTeamMatchPoint (edit)	national team match point	Person	xsd:string	
+nationalTeamYear (edit)	national team year	Person	xsd:string	
+nationalTournament (edit)	National tournament	Person	Tournament	
+nationalTournamentBronze (edit)	national tournament bronze	Person	xsd:nonNegativeInteger	
+nationalTournamentGold (edit)	national tournament gold	Person	xsd:nonNegativeInteger	
+nationalTournamentSilver (edit)	national tournament silver	Person	xsd:nonNegativeInteger	
+nationality (edit)	nationality	Person	Country	
+networth (edit)	networth	Person	Currency	
+nndbId (edit)	NNDB id	Person	xsd:string	
+nonProfessionalCareer (edit)	non professional career	Person	xsd:string	
+notableIdea (edit)	notableIdea	Person	owl:Thing	
+noteOnPlaceOfBurial (edit)	note on place of burial	MilitaryPerson	xsd:string	
+noteOnRestingPlace (edit)	note on resting place	Person	xsd:string	
+numberOfRun (edit)	number of run	Person	xsd:nonNegativeInteger	
+olympicGames (edit)	olympic games	Person	Tournament	
+olympicGamesBronze (edit)	olympic games bronze	Person	xsd:nonNegativeInteger	
+olympicGamesGold (edit)	olympic games gold	Person	xsd:nonNegativeInteger	
+olympicGamesSilver (edit)	olympic games silver	Person	xsd:nonNegativeInteger	
+olympicGamesWins (edit)	olympic games wins	Person	xsd:string	
+opponent (edit)	opponent	Person	Person	
+orientation (edit)	orientation	Person	xsd:string	
+originalDanseCompetition (edit)	original danse competititon	Person	xsd:string	
+originalDanseScore (edit)	original danse score	Person	xsd:string	
+otherActivity (edit)	other activity	Person	xsd:string	
+otherFunction (edit)	other function	Person	owl:Thing	
+otherMedia (edit)	other media	Person	PeriodicalLiterature	
+otherOccupation (edit)	other occupation	Person	PersonFunction	
+parent (edit)	parent	Person	Person	
+parliamentaryGroup (edit)	parliamentary group	Person	xsd:string	
+particularSign (edit)	particular sign	Person	xsd:string	
+partner (edit)	partner	Person	Person	
+patent (edit)	patent	Person	owl:Thing	
+penisLength (edit)	penis length	Person	xsd:string	
+personFunction (edit)	person function	Person	PersonFunction	
+pgaWins (edit)	pga wins	Person	skos:Concept	
+philosophicalSchool (edit)	philosophicalSchool	Person	owl:Thing	
+piercing (edit)	piercing	Person	xsd:string	
+placeOfBurial (edit)	place of burial	Person	Place	The place where the person has been buried.
+playerStatus (edit)	player status	Person	xsd:string	
+podium (edit)	podium	Person	xsd:nonNegativeInteger	
+polePosition (edit)	pole position	Person	xsd:nonNegativeInteger	
+politicalFunction (edit)	political function	Person	xsd:string	
+profession (edit)	profession	Person	owl:Thing	
+project (edit)	project	Person	Project	
+pseudonym (edit)	pseudonym	Person	rdf:langString	
+publication (edit)	publication	Person	xsd:string	
+raceWins (edit)	race wins	Person	xsd:nonNegativeInteger	
+radio (edit)	radio	Person	RadioStation	
+reign (edit)	reign	Person	xsd:string	
+reignName (edit)	reign name	Person	xsd:string	
+relatedFunctions (edit)	related functions	Person	List	This property is to accommodate the list field that contains a list of related personFunctions a person holds or has held
+relation (edit)	relation	Person	Person	
+relative (edit)	relative	Person	Person	
+residence (edit)	residence	Person	Place	Place of residence of a person.
+restingDate (edit)	resting date	Person	xsd:date	
+restingPlace (edit)	resting place	Person	Place	
+restingPlacePosition (edit)	resting place position	Person	geo:SpatialThing	
+retirementDate (edit)	retirement date	Person	xsd:date	
+salary (edit)	salary	Person	Currency	
+scene (edit)	scene	Person	xsd:string	
+school (edit)	school	Person	EducationalInstitution	school a person goes or went to
+seasonManager (edit)	season manager	Person	xsd:string	
+second (edit)	second	Person	xsd:nonNegativeInteger	
+seiyu (edit)	seiyu	Person	Person	
+sentence (edit)	sentence	Person	xsd:string	
+serviceEndDate (edit)	service end date	MilitaryPerson	xsd:date	
+serviceEndYear (edit)	service end year	MilitaryPerson	xsd:gYear	
+serviceNumber (edit)	service number	MilitaryPerson	xsd:string	The service number held by the individual during military service.
+serviceStartDate (edit)	service start date	MilitaryPerson	xsd:date	
+serviceStartYear (edit)	service start year	MilitaryPerson	xsd:gYear	
+sex (edit)	sex	Person	xsd:string	
+sexualOrientation (edit)	sexual orientation	Person	owl:Thing	
+shoeNumber (edit)	shoe number	Person	xsd:positiveInteger	
+shoeSize (edit)	shoe size	Person	xsd:string	
+shoot (edit)	shoot	Person	xsd:string	
+shortProgCompetition (edit)	short prog competition	Person	xsd:string	
+shortProgScore (edit)	short prog score	Person	xsd:string	
+sibling (edit)	sibling	Person	Person	
+signature (edit)	signature	Person	xsd:string	
+significantProject (edit)	significant project	Person	owl:Thing	A siginificant artifact constructed by the person.
+skinColor (edit)	skin color	Person	xsd:string	
+specialTrial (edit)	special trial	Person	xsd:nonNegativeInteger	
+speciality (edit)	speciality	Person	xsd:string	
+sportDiscipline (edit)	sport discipline	Person	Sport	the sport discipline the athlete practices, e.g. Diving, or that a board member of a sporting club is focussing at
+sportsFunction (edit)	sports function	Person	xsd:string	
+spouse (edit)	spouse	Person	Person	the person they are married to
+spouseName (edit)	spouse name	Person	xsd:string	
+startCareer (edit)	start career	Person	xsd:string	
+startReign (edit)	start reign	Person	skos:Concept	
+startWct (edit)	start xct	Person	xsd:string	
+startWqs (edit)	start wqs	Person	xsd:string	
+stateOfOrigin (edit)	state of origin	Person	Country	
+statusManager (edit)	status manager	Person	xsd:string	
+student (edit)	student	Person	Person	
+tattoo (edit)	tattoo	Person	xsd:string	
+teamManager (edit)	team manager	Person	SportsTeam	
+temple (edit)	temple	Person	xsd:string	
+templeYear (edit)	temple year	Person	xsd:string	
+tessitura (edit)	tessitura	Person	xsd:string	
+third (edit)	third	Person	xsd:nonNegativeInteger	
+titleDate (edit)	title date	Person	xsd:date	
+tvShow (edit)	tvShow	Person	TelevisionShow	
+usopenWins (edit)	usopen wins	Person	skos:Concept	
+usurper (edit)	usurper	Person	Person	
+victory (edit)	victory	Person	xsd:nonNegativeInteger	
+victoryAsMgr (edit)	victory as manager	Person	xsd:nonNegativeInteger	
+victoryPercentageAsMgr (edit)	victory percentage as manager	Person	xsd:double	
+waistSize (edit)	waist size	Person	Length	
+war (edit)	wars	MilitaryPerson	xsd:string	
+weddingParentsDate (edit)	Parents Wedding Date	Person	xsd:date	
+world (edit)	world	Person	skos:Concept	
+worldTournament (edit)	world tournament	Person	Tournament	
+worldTournamentBronze (edit)	world tournament bronze	Person	xsd:nonNegativeInteger	
+worldTournamentGold (edit)	world tournament gold	Person	xsd:nonNegativeInteger	
+worldTournamentSilver (edit)	world tournament silver	Person	xsd:nonNegativeInteger	
+
+
+
+**Требования к ответу:**  
+- Выводить **только** тройки в формате  
+- Каждая тройка — на новой строке.  
+- **Не придумывать** и не повторять лишние тройки.  
+- Все термины (`Персона`, `Локация`, предикаты и т. д.) — **как в онтологии**.  
+(Субъект, предикат, объект)
+**Пример** (для иллюстрации, не относится к тексту):
+(Фердинанд Фош, командовал, французской армией)
+(Россия, вступила в войну, 1914-08-01)
+Не более 15 троек.
+Среди троек не должно быть тех, которые не соответствуют онтологии.
+Текст для анализа:  
+<<<TEXT>>>

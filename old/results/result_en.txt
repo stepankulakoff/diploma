@@ -1,0 +1,249 @@
+(Brest-Litovsk, place of signing, Treaty of Brest-Litovsk)
+(Germany, concluded, Treaty of Brest-Litovsk)
+(Germany, fought with, Italy)
+(Germany, occupied, Ukraine)
+(Prince Leopold of Bavaria, signed, Treaty of Brest-Litovsk)
+(Treaty of Brest-Litovsk, signing date, 1918-02-09)
+
+(Austria, formed alliance with, Germany)
+(France, formed alliance with, Russia)
+(Germany, broke diplomatic ties with, Great Britain)
+(Germany, formed alliance with, Austria)
+(Germany, fought with, France)
+(Germany, occupied, Alsace)
+(Germany, occupied, Lorraine)
+(Kaiser Wilhelm II, represents, Germany)
+
+(Britain, made defensive arrangements with, France)
+(Britain, made defensive arrangements with, Russia)
+(France, formed alliance with, Russia)
+(Germany, produced, navy)
+
+(Enver Pasha, represents, Ottoman Turkey)
+(Germany, concluded, Treaty)
+(Liman von Sanders, commanded, Ottoman Army Corps)
+(Russia, concluded, Treaty)
+(Russia, entered the war on, 1914)
+
+(France, fought with, Germany)
+(Germany, fought with, France)
+(Germany, fought with, Russia)
+(Russia, entered the war on, 1914)
+(Russia, formed alliance with, France)
+(Sir Arthur Nicolson, represents, Great Britain)
+(Theobald von Bethmann Hollweg, represents, Germany)
+
+(Archduke Franz Ferdinand, died in, Sarajevo)
+(Austria-Hungary, fought with, Serbia)
+(Count Schlieffen, developed, Schlieffen Plan)
+(Gavrilo Princip, assassinated, Archduke Franz Ferdinand)
+(Gavrilo Princip, died in, May 1918)
+(Gavrilo Princip, represents, Serbia)
+
+(Bethmann Hollweg, represents, Germany)
+(Germany, declared war on, Russia)
+(Kaiser, represents, Germany)
+
+(Germany, declared war on, France)
+(Germany, declared war on, Russia)
+(Germany, fought with, Great Britain)
+(Germany, invaded, Belgium)
+(Great Britain, issued ultimatum to, Belgium)
+(Great Britain, issued ultimatum to, Germany)
+(Winston Churchill, mobilized, Royal Navy)
+(Winston Churchill, represents, Great Britain)
+
+(Kurt Riezler, represents, Germany)
+
+
+
+(Germany, fought with, France)
+(Liège, place of signing, Treaty of Liège)
+(Schlieffen Plan, developed, Alfred von Schlieffen)
+
+
+
+(Germany, fought with, France)
+(Germany, fought with, Great Britain)
+(Germany, occupied, Namur)
+(Joffre, opposed, Moltke)
+(Lord Kitchener, opposed, Sir John French)
+
+
+
+(Austria-Hungary, fought with, Russia)
+(Austria-Hungary, fought with, Serbia)
+(Franz Conrad von Hötzendorf, commanded, Austro-Hungarian Army)
+
+(Erich von Falkenhayn, commands, Germany)
+(Erich von Falkenhayn, represents, Germany)
+(Germany, fought with, Great Britain)
+
+(Austria-Hungary, fought with, Russia)
+(Conrad, represents, Austria-Hungary)
+(Ludendorff, represents, Germany)
+(Russia, fought with, Austria-Hungary)
+(Russia, fought with, Germany)
+
+(Enver Pasha, represents, Turkey)
+(Kress von Kressenstein, represents, Germany)
+
+(Great Britain, entered the war on, 1914-08-04)
+(Great Britain, fought with, Germany)
+(Winston Churchill, represents, Great Britain)
+
+(Germany, fought with, Great Britain)
+(Turkey, entered the war on, 1914)
+
+(Kemal Atatürk, represents, Turkey)
+(Sir Ian Hamilton, commanded, British Army)
+
+
+
+
+
+
+
+(Austria-Hungary, fought with, Russia)
+(Falkenhayn, represents, Germany)
+(Germany, fought with, Russia)
+(Hans von Seeckt, met, Falkenhayn)
+(Hans von Seeckt, represents, Germany)
+
+(Alexeyev, represents, Russia)
+(Bulgaria, formed alliance with, Germany)
+(Falkenhayn, represents, Germany)
+(Germany, fought with, Russia)
+(Germany, occupied, Kovno)
+(Germany, occupied, Vilna)
+(Germany, occupied, Warsaw)
+(Ludendorff, represents, Germany)
+(Mackensen, commands, Germany)
+(Russia, fought with, Germany)
+
+
+
+
+
+(Germany, fought with, Great Britain)
+(Great Britain, fought with, Germany)
+
+(Great Britain, fought with, Germany)
+
+(A. A. Brusilov, commanded, South-western front)
+(Archduke Joseph Ferdinand, commanded, Fourth Army)
+
+(Austria-Hungary, formed alliance with, Germany)
+(Austria-Hungary, fought with, Russia)
+(Central Powers, fought with, Romania)
+(Falkenhayn, commanded, Ninth Army)
+(Germany, fought with, Romania)
+(Germany, fought with, Russia)
+(Romania, entered the war on, 1916)
+
+(Franz Joseph, died in, 1916-11-21)
+
+
+
+
+
+(Arthur Zimmermann, represents, Germany)
+(Arthur Zimmermann, sent, Zimmermann Telegram)
+(Britain, broke diplomatic ties with, Germany)
+(Sir Ernest Rutherford, developed, hydrophone)
+(United States, entered the war on, 1917-04-06)
+
+
+
+(Germany, fought with, France)
+(Germany, fought with, Russia)
+(Lloyd George, mistrusted, Haig)
+(Philippe Pétain, commanded, French Army)
+
+(Russia, broke diplomatic ties with, Tsar Nicholas II)
+(Russia, concluded, Provisional Government)
+(Russia, entered the war on, 1914)
+(Vladimir Lenin, represents, Russia)
+
+(British, fought with, Germans)
+(Douglas Haig, commanded, British Army)
+(United Kingdom, fought with, Austria-Hungary)
+(Ypres, place of signing, Treaty of Versailles)
+
+(Broodseinde, place of signing, Treaty)
+
+(Haig, commands, British Army)
+(Riga, place of signing, Treaty)
+
+(Austria, fought with, Italy)
+(Germany, fought with, Italy)
+(Italy, fought with, Austria)
+(Italy, fought with, Germany)
+(Otto von Below, commanded, Rommel)
+(Otto von Below, commanded, Schörner)
+(Otto von Below, commands, Germany)
+(Rommel, represents, Germany)
+(Schörner, represents, Germany)
+
+(Austria, fought with, Italy)
+(Cadorna, represents, Italy)
+(Erwin Rommel, commanded, Württemberg Mountain Battalion)
+(Germany, fought with, Italy)
+
+(Ernest Hemingway, wrote, Goodbye to Arms)
+(Germany, fought with, Italy)
+(Otto von Below, represents, Germany)
+
+(Bolsheviks, signed, Treaty)
+(Germany, fought with, Russia)
+(Lloyd George, represents, Great Britain)
+
+
+
+(Foch, represents, France)
+(France, fought with, Germany)
+(Germany, fought with, France)
+(Germany, fought with, Great Britain)
+(Great Britain, fought with, Germany)
+
+
+
+(Foch, commands, France)
+(France, entered the war on, 1914-08-03)
+(France, fought with, Germany)
+(French Army, developed, Blitzkrieg)
+(Ludendorff, commands, Germany)
+(Rawlinson, represents, Great Britain)
+(USA, entered the war on, 1917-04-06)
+
+(British Army, entered the war on, 1914-08-04)
+(British Army, fought with, German Army)
+(Ferdinand Foch, opposed, Erich Ludendorff)
+(Germany, fought with, France)
+(Germany, fought with, Great Britain)
+(Germany, fought with, USA)
+
+
+
+(Germany, signed armistice with, Allies)
+(Hindenburg, appointed, Adolf Hitler)
+(Ludendorff, introduced, Adolf Hitler)
+(Matthias Erzberger, represents, Germany)
+(Philipp Scheidemann, represents, Germany)
+(Prince Max, represents, Germany)
+
+(Lausanne, place of signing, Treaty of Lausanne)
+(Treaty of Lausanne, signing date, 1923)
+(Treaty of Sèvres, signing date, 1920)
+
+(Adolf Hitler, opposed, Jews)
+(Adolf Hitler, represents, Germany)
+(Erich Ludendorff, opposed, Jews)
+
+(E. L. Spears, represents, Great Britain)
+(Winston Churchill, developed, World Crisis)
+
+
+
+
+

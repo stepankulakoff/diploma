@@ -1,0 +1,299 @@
+# chunk_001.txt
+# candidates (raw Wikifier)
+Россия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Первая мировая война: dbo:Event, dbo:MilitaryConflict
+Германия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+1918 год: dbo:TimePeriod, dbo:Year
+1914 год: dbo:TimePeriod, dbo:Year
+Европа: dbo:PopulatedPlace, dbo:Place, dbo:Continent
+Вторая мировая война: dbo:Event, dbo:MilitaryConflict
+1991 год: dbo:TimePeriod, dbo:Year
+Российская империя: dbo:PopulatedPlace, dbo:Place, dbo:Country, dbo:Territory, dbo:OldTerritory
+Октябрьская революция: dbo:Event, dbo:MilitaryConflict
+Волга: dbo:Place, dbo:NaturalPlace, dbo:BodyOfWater, dbo:River, dbo:Stream
+Соединённые Штаты Америки: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Франция: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Иран: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Немецкий язык: dbo:Language
+Великобритания: dbo:PopulatedPlace, dbo:Place, dbo:Country
+1917 год: dbo:TimePeriod, dbo:Year
+Брест: dbo:Settlement, dbo:PopulatedPlace, dbo:Place, dbo:AdministrativeRegion, dbo:Region
+Украина: dbo:PopulatedPlace, dbo:Place, dbo:Country, dbo:Territory, dbo:OldTerritory
+Ленин, Владимир Ильич: dbo:Person, dbo:Agent, dbo:President, dbo:Politician, dbo:OfficeHolder
+# triples (LLM choice)
+(Россия, type, dbo:Country)
+(Первая мировая война, type, dbo:MilitaryConflict)
+(Германия, type, dbo:Country)
+(1918 год, type, dbo:Year)
+(1914 год, type, dbo:Year)
+(Европа, type, dbo:Continent)
+(Вторая мировая война, type, dbo:MilitaryConflict)
+(1991 год, type, dbo:Year)
+(Российская империя, type, dbo:OldTerritory)
+(Октябрьская революция, type, dbo:MilitaryConflict)
+(Волга, type, dbo:River)
+(Соединённые Штаты Америки, type, dbo:Country)
+(Франция, type, dbo:Country)
+(Иран, type, dbo:Country)
+(Немецкий язык, type, dbo:Language)
+(Великобритания, type, dbo:Country)
+(1917 год, type, dbo:Year)
+(Брест, type, dbo:Settlement)
+(Украина, type, dbo:Country)
+(Ленин, Владимир Ильич, type, dbo:Politician)
+
+# chunk_002.txt
+# candidates (raw Wikifier)
+Россия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Англия: dbo:PopulatedPlace, dbo:Place, dbo:Country, dbo:AdministrativeRegion, dbo:Region, dbo:Territory
+Германия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Европа: dbo:PopulatedPlace, dbo:Place, dbo:Continent
+Санкт-Петербург: dbo:City, dbo:Settlement, dbo:PopulatedPlace, dbo:Place, dbo:AdministrativeRegion, dbo:Region
+Турция: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Бисмарк, Отто фон: dbo:Person, dbo:Agent, dbo:President, dbo:Politician, dbo:OfficeHolder
+Франция: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Австрия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Германская империя: dbo:PopulatedPlace, dbo:Place, dbo:Country, dbo:Territory, dbo:OldTerritory
+Польша: dbo:PopulatedPlace, dbo:Place, dbo:Country
+1894 год: dbo:TimePeriod, dbo:Year
+Великобритания: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Пруссия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Берлин: dbo:City, dbo:Settlement, dbo:PopulatedPlace, dbo:Place, dbo:AdministrativeRegion, dbo:Region
+Вебер, Макс: dbo:Person, dbo:Agent, dbo:Artist, dbo:Writer
+Поляки: dbo:EthnicGroup
+1895 год: dbo:TimePeriod, dbo:Year
+Гитлер, Адольф: dbo:Person, dbo:Agent, dbo:President, dbo:Politician, dbo:OfficeHolder
+1871 год: dbo:TimePeriod, dbo:Year
+# triples (LLM choice)
+(Россия, type, dbo:Country)
+(Англия, type, dbo:Country)
+(Германия, type, dbo:Country)
+(Европа, type, dbo:Continent)
+(Санкт-Петербург, type, dbo:City)
+(Турция, type, dbo:Country)
+(Бисмарк, Отто фон, type, dbo:Politician)
+(Франция, type, dbo:Country)
+(Австрия, type, dbo:Country)
+(Германская империя, type, dbo:Country)
+(Польша, type, dbo:Country)
+(1894 год, type, dbo:Year)
+(Великобритания, type, dbo:Country)
+(Пруссия, type, dbo:Country)
+(Берлин, type, dbo:City)
+(Вебер, Макс, type, dbo:Person)
+(Поляки, type, dbo:EthnicGroup)
+(1895 год, type, dbo:Year)
+(Гитлер, Адольф, type, dbo:Person)
+(1871 год, type, dbo:Year)
+
+# chunk_003.txt
+# candidates (raw Wikifier)
+Англия: dbo:PopulatedPlace, dbo:Place, dbo:Country, dbo:AdministrativeRegion, dbo:Region, dbo:Territory
+Россия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Германия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Марокко: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Османская империя: dbo:PopulatedPlace, dbo:Place, dbo:Country, dbo:Territory, dbo:OldTerritory
+Франция: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Средиземное море: dbo:PopulatedPlace, dbo:Place, dbo:NaturalPlace, dbo:BodyOfWater
+1914 год: dbo:TimePeriod, dbo:Year
+Италия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Великобритания: dbo:PopulatedPlace, dbo:Place, dbo:Country
+1911 год: dbo:TimePeriod, dbo:Year
+Европа: dbo:PopulatedPlace, dbo:Place, dbo:Continent
+1909 год: dbo:TimePeriod, dbo:Year
+Вторая мировая война: dbo:Event, dbo:MilitaryConflict
+Соединённые Штаты Америки: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Балканский полуостров: dbo:PopulatedPlace, dbo:Place
+1907 год: dbo:TimePeriod, dbo:Year
+Германская империя: dbo:PopulatedPlace, dbo:Place, dbo:Country, dbo:Territory, dbo:OldTerritory
+Египет: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Швеция: dbo:PopulatedPlace, dbo:Place, dbo:Country
+# triples (LLM choice)
+(Англия, type, dbo:Country)
+(Россия, type, dbo:Country)
+(Германия, type, dbo:Country)
+(Марокко, type, dbo:Country)
+(Османская империя, type, dbo:OldTerritory)
+(Франция, type, dbo:Country)
+(Средиземное море, type, dbo:BodyOfWater)
+(1914 год, type, dbo:Year)
+(Италия, type, dbo:Country)
+(Великобритания, type, dbo:Country)
+(1911 год, type, dbo:Year)
+(Европа, type, dbo:Continent)
+(1909 год, type, dbo:Year)
+(Вторая мировая война, type, dbo:MilitaryConflict)
+(Соединённые Штаты Америки, type, dbo:Country)
+(Балканский полуостров, type, dbo:Place)
+(1907 год, type, dbo:Year)
+(Германская империя, type, dbo:OldTerritory)
+(Египет, type, dbo:Country)
+(Швеция, type, dbo:Country)
+
+# chunk_004.txt
+# candidates (raw Wikifier)
+Россия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Англия: dbo:PopulatedPlace, dbo:Place, dbo:Country, dbo:AdministrativeRegion, dbo:Region, dbo:Territory
+Германия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Османская империя: dbo:PopulatedPlace, dbo:Place, dbo:Country, dbo:Territory, dbo:OldTerritory
+Санкт-Петербург: dbo:City, dbo:Settlement, dbo:PopulatedPlace, dbo:Place, dbo:AdministrativeRegion, dbo:Region
+1913 год: dbo:TimePeriod, dbo:Year
+Первая мировая война: dbo:Event, dbo:MilitaryConflict
+1912 год: dbo:TimePeriod, dbo:Year
+Великобритания: dbo:PopulatedPlace, dbo:Place, dbo:Country
+1911 год: dbo:TimePeriod, dbo:Year
+1914 год: dbo:TimePeriod, dbo:Year
+Немецкий язык: dbo:Language
+Соединённые Штаты Америки: dbo:PopulatedPlace, dbo:Place, dbo:Country
+1991 год: dbo:TimePeriod, dbo:Year
+Берлин: dbo:City, dbo:Settlement, dbo:PopulatedPlace, dbo:Place, dbo:AdministrativeRegion, dbo:Region
+Европа: dbo:PopulatedPlace, dbo:Place, dbo:Continent
+Австро-Венгрия: dbo:PopulatedPlace, dbo:Place, dbo:Country, dbo:Territory, dbo:OldTerritory
+Стамбул: dbo:City, dbo:Settlement, dbo:PopulatedPlace, dbo:Place, dbo:AdministrativeRegion, dbo:Region
+Энвер-паша: dbo:Person, dbo:Agent, dbo:MilitaryPerson
+Франция: dbo:PopulatedPlace, dbo:Place, dbo:Country
+# triples (LLM choice)
+(Россия, type, dbo:Country)
+(Англия, type, dbo:Country)
+(Германия, type, dbo:Country)
+(Османская империя, type, dbo:OldTerritory)
+(Санкт-Петербург, type, dbo:City)
+(1913 год, type, dbo:Year)
+(Первая мировая война, type, dbo:MilitaryConflict)
+(1912 год, type, dbo:Year)
+(Великобритания, type, dbo:Country)
+(1911 год, type, dbo:Year)
+(1914 год, type, dbo:Year)
+(Немецкий язык, type, dbo:Language)
+(Соединённые Штаты Америки, type, dbo:Country)
+(1991 год, type, dbo:Year)
+(Берлин, type, dbo:City)
+(Европа, type, dbo:Continent)
+(Австро-Венгрия, type, dbo:OldTerritory)
+(Стамбул, type, dbo:City)
+(Энвер-паша, type, dbo:Person)
+(Франция, type, dbo:Country)
+
+# chunk_005.txt
+# candidates (raw Wikifier)
+Россия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Германия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Санкт-Петербург: dbo:City, dbo:Settlement, dbo:PopulatedPlace, dbo:Place, dbo:AdministrativeRegion, dbo:Region
+Немецкий язык: dbo:Language
+Бетман-Гольвег, Теобальд фон: dbo:Person, dbo:Agent, dbo:Politician, dbo:OfficeHolder, dbo:Chancellor
+Соединённые Штаты Америки: dbo:PopulatedPlace, dbo:Place, dbo:Country
+1914 год: dbo:TimePeriod, dbo:Year
+Франция: dbo:PopulatedPlace, dbo:Place, dbo:Country
+1991 год: dbo:TimePeriod, dbo:Year
+Первая мировая война: dbo:Event, dbo:MilitaryConflict
+Австро-Венгрия: dbo:PopulatedPlace, dbo:Place, dbo:Country, dbo:Territory, dbo:OldTerritory
+1917 год: dbo:TimePeriod, dbo:Year
+Земля: dbo:CelestialBody, dbo:Planet
+Человек разумный: dbo:Animal, dbo:Eukaryote, dbo:Species, dbo:Mammal
+Берлин: dbo:City, dbo:Settlement, dbo:PopulatedPlace, dbo:Place, dbo:AdministrativeRegion, dbo:Region
+Русская императорская армия: dbo:Agent, dbo:Organisation, dbo:MilitaryUnit
+Вермахт: dbo:Agent, dbo:Place, dbo:Organisation, dbo:ProtectedArea, dbo:MilitaryUnit
+1897 год: dbo:TimePeriod, dbo:Year
+Столыпин, Пётр Аркадьевич: dbo:Person, dbo:Agent, dbo:Politician, dbo:PrimeMinister
+Южные славяне: dbo:EthnicGroup
+# triples (LLM choice)
+(Россия, type, dbo:Country)
+(Германия, type, dbo:Country)
+(Санкт-Петербург, type, dbo:City)
+(Немецкий язык, type, dbo:Language)
+(Бетман-Гольвег, Теобальд фон, type, dbo:Politician)
+(Соединённые Штаты Америки, type, dbo:Country)
+(1914 год, type, dbo:Year)
+(Франция, type, dbo:Country)
+(1991 год, type, dbo:Year)
+(Первая мировая война, type, dbo:MilitaryConflict)
+(Австро-Венгрия, type, dbo:Country)
+(1917 год, type, dbo:Year)
+(Земля, type, dbo:Planet)
+(Человек разумный, type, dbo:Species)
+(Берлин, type, dbo:City)
+(Русская императорская армия, type, dbo:MilitaryUnit)
+(Вермахт, type, dbo:MilitaryUnit)
+(1897 год, type, dbo:Year)
+(Столыпин, Пётр Аркадьевич, type, dbo:Politician)
+(Южные славяне, type, dbo:EthnicGroup)
+
+# chunk_006.txt
+# candidates (raw Wikifier)
+Россия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+1914 год: dbo:TimePeriod, dbo:Year
+Германия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Первая мировая война: dbo:Event, dbo:MilitaryConflict
+Берлин: dbo:City, dbo:Settlement, dbo:PopulatedPlace, dbo:Place, dbo:AdministrativeRegion, dbo:Region
+Франц Фердинанд: dbo:Person, dbo:Agent, dbo:BritishRoyalty, dbo:Royalty, dbo:Noble
+Бетман-Гольвег, Теобальд фон: dbo:Person, dbo:Agent, dbo:Politician, dbo:OfficeHolder, dbo:Chancellor
+Ленин, Владимир Ильич: dbo:Person, dbo:Agent, dbo:President, dbo:Politician, dbo:OfficeHolder
+1917 год: dbo:TimePeriod, dbo:Year
+Смертная казнь: dbo:Disease
+Соединённые Штаты Америки: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Австро-Венгрия: dbo:PopulatedPlace, dbo:Place, dbo:Country, dbo:Territory, dbo:OldTerritory
+Граф (титул): dbo:Person, dbo:Agent
+1918 год: dbo:TimePeriod, dbo:Year
+Эрцгерцог: dbo:Person, dbo:Agent
+Средний Восток: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Бисмарк, Отто фон: dbo:Person, dbo:Agent, dbo:President, dbo:Politician, dbo:OfficeHolder
+Вторая мировая война: dbo:Event, dbo:MilitaryConflict
+Британская империя: dbo:PopulatedPlace, dbo:Place, dbo:Country, dbo:Territory, dbo:OldTerritory
+Иран: dbo:PopulatedPlace, dbo:Place, dbo:Country
+# triples (LLM choice)
+(Россия, type, dbo:Country)
+(1914 год, type, dbo:Year)
+(Германия, type, dbo:Country)
+(Первая мировая война, type, dbo:MilitaryConflict)
+(Берлин, type, dbo:City)
+(Франц Фердинанд, type, dbo:Person)
+(Бетман-Гольвег, Теобальд фон, type, dbo:Politician)
+(Ленин, Владимир Ильич, type, dbo:Person)
+(1917 год, type, dbo:Year)
+(Смертная казнь, type, dbo:Disease)
+(Соединённые Штаты Америки, type, dbo:Country)
+(Австро-Венгрия, type, dbo:Country)
+(Граф (титул), type, dbo:Person)
+(1918 год, type, dbo:Year)
+(Эрцгерцог, type, dbo:Person)
+(Средний Восток, type, dbo:Place)
+(Бисмарк, Отто фон, type, dbo:Politician)
+(Вторая мировая война, type, dbo:MilitaryConflict)
+(Британская империя, type, dbo:Country)
+(Иран, type, dbo:Country)
+
+# chunk_007.txt
+# candidates (raw Wikifier)
+Россия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Германия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Вторая мировая война: dbo:Event, dbo:MilitaryConflict
+Санкт-Петербург: dbo:City, dbo:Settlement, dbo:PopulatedPlace, dbo:Place, dbo:AdministrativeRegion, dbo:Region
+Великобритания: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Франция: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Франко-прусская война: dbo:Event, dbo:MilitaryConflict
+Первая мировая война: dbo:Event, dbo:MilitaryConflict
+Бельгия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+1939 год: dbo:TimePeriod, dbo:Year
+Австрия: dbo:PopulatedPlace, dbo:Place, dbo:Country
+1914 год: dbo:TimePeriod, dbo:Year
+Берлин: dbo:City, dbo:Settlement, dbo:PopulatedPlace, dbo:Place, dbo:AdministrativeRegion, dbo:Region
+Европа: dbo:PopulatedPlace, dbo:Place, dbo:Continent
+Черчилль, Уинстон: dbo:Person, dbo:Agent, dbo:President, dbo:Politician, dbo:OfficeHolder
+Транссибирская магистраль: dbo:MeanOfTransportation
+Российская империя: dbo:PopulatedPlace, dbo:Place, dbo:Country, dbo:Territory, dbo:OldTerritory
+Турция: dbo:PopulatedPlace, dbo:Place, dbo:Country
+Ллойд Джордж, Дэвид: dbo:Person, dbo:Agent, dbo:President, dbo:Politician, dbo:OfficeHolder, dbo:PrimeMinister
+1870 год: dbo:TimePeriod, dbo:Year
+# triples (LLM choice)
+(Россия, type, dbo:Country)
+(Германия, type, dbo:Country)
+(Вторая мировая война, type, dbo:MilitaryConflict)
+(Санкт-Петербург, type, dbo:City)
+(Великобритания, type, dbo:Country)
+(Франция, type, dbo:Country)
+(Франко-прусская война, type, dbo:MilitaryConflict)
+(Первая мировая война, type, dbo:MilitaryConflict)
+(Бельгия, type, dbo:Country)
+(1939 год, type, dbo:Year)
+(Австрия, type, dbo:Country)
+(1914 год, type, dbo:Year)
